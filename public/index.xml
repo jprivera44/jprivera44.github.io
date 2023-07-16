@@ -6,7 +6,25 @@
     <description>Recent content on JP&#39;s Coding Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://jprivera44.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Jul 2023 23:37:29 -0700</lastBuildDate><atom:link href="https://jprivera44.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MT5: GPU Performance</title>
+      <link>https://jprivera44.github.io/posts/gpu-performance/</link>
+      <pubDate>Sat, 15 Jul 2023 23:37:29 -0700</pubDate>
+      
+      <guid>https://jprivera44.github.io/posts/gpu-performance/</guid>
+      <description>Exploring model performance via CUDA MT5? This project focuses on analyzing the output differences between MT5, with PyTorch, and compared with Tensorflow, to understand deeper which version of software is optimal for performance on a GPU cluster.</description>
+    </item>
+    
+    <item>
+      <title>CS Deep Learning</title>
+      <link>https://jprivera44.github.io/posts/cs-deep-learning/</link>
+      <pubDate>Sat, 15 Jul 2023 23:13:01 -0700</pubDate>
+      
+      <guid>https://jprivera44.github.io/posts/cs-deep-learning/</guid>
+      <description>Exploring Transformers applied to NeRF This page briefly describes my invovlement within the end of semester deep learning project.</description>
+    </item>
+    
     <item>
       <title>Markdown Syntax</title>
       <link>https://jprivera44.github.io/posts/markdown-syntax/</link>

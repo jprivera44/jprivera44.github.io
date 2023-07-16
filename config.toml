@@ -26,7 +26,7 @@ disqusShortname = ""
 [params]
     math = true
     # Blog description at the top of the homepage. Supports markdown.
-    description = "Noteworthy is a minimalist Hugo theme, perfect for writers and bloggers."
+    description = ""
 
     showReadMore = false
 
@@ -36,10 +36,8 @@ disqusShortname = ""
 
     # Add links to your accounts. Remove the ones you don't want to include.
     # Main
-    email = "#"
-    twitter = "#"
-    youtube = "#"
-    linkedin = "#"
+
+    linkedin = "https://www.linkedin.com/in/rivera-jp/"
 
     # Writing
 
@@ -48,14 +46,10 @@ disqusShortname = ""
     # Audio & Music
 
     # Programming
-    github = "#"
-    stackoverflow = "#"
-    gitlab = "#"
+    github = "https://github.com/jprivera44"
+
 
     # Academic
-    googlescholar = "#"
-    impactstory = "#"
-    orcid = "#"
 
     # Travel
 
