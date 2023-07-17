@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>MT5: GPU Performance | JP&#39;s Coding Blog</title>
+    <title>MT5 finetuning &amp; GPU Performance | JP&#39;s Coding Blog</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -137,20 +137,26 @@
         <div id="content" class="content-container">
         
 
-<h1 class="post-title">MT5: GPU Performance</h1>
+<h1 class="post-title">MT5 finetuning &amp; GPU Performance</h1>
     
     <time>July 15, 2023</time>
     
     <div>
         <p>
-        <h1 id="exploring-model-performance-via-cuda">Exploring model performance via CUDA</h1>
-<h2 id="mt5">MT5?</h2>
-<p>This project focuses on analyzing the output differences between MT5, with PyTorch, and compared with Tensorflow, to understand deeper which version of software is optimal for performance on a GPU cluster.</p>
-<p>Here&rsquo;s a <a href="https://github.com/jprivera44/GaTech-cs7643/blob/main/Project_Report_CS_7643_NeRF_%26_GNT.pdf">link</a> to the paper from the project.</p>
-<p><img src="/images/my-image.jpg" alt="My Image"></p>
-<blockquote>
-<p>This is a quote.</p>
-</blockquote>
+        <h1 id="intro">Intro</h1>
+<p>The mt5 is a transformer based langauge model developed by Google Research(Xue et al. 2021). It is an extension of the existing T5 series, the text-text transfer models, however this version is trained on 101 different langugaes.  Every task  handled by the model is considered  text-text which means it can handle translation, summarization, question answering etc. Although not was popular as the latest GPT models(GPT4), the wide range of langauge capabilities makes Mt5 stand out. Please note that the repo in this model is from the HuggingFace transformers library. As such the Mt5 model out of the box is not that useful, and requires fine tuning.</p>
+<p><a href="https://github.com/jprivera44/Mt5-model-comparison">Github link</a></p>
+<h1 id="purpose">Purpose</h1>
+<p>The purpose of this repo is to fine tune the Mt5 langauge model to perform question answering in Spansih. I am specifically working with the <a href="https://huggingface.co/datasets/squad_es">Squad_es</a> dataset present on HuggingFace.</p>
+<h1 id="methods">Methods</h1>
+<p>To complete this work, I leveraged cloud GPUs from PaperSpace, due to access to direct CUDA kernel statistics unlike Google Colab. Access to Nvidia tools was critical during this development to better glean insights on optimal hyper parameter tuning. The most time intensive task, was the data cleaning and processing before being able to be fine tuned.</p>
+<h1 id="results">Results</h1>
+<p>Below are the results from the fine tuning of the model to now be able to perform question answering in Spanish based off the SQUAD dataset.</p>
+<img src="/posts/images/best_train_loss.png" width="75%">
+<img src="/posts/images/GPU_utilization.png" width="75%">
+<p>Below are further results of GPU utils.</p>
+<img src="/posts/images/GPU_time _spent_acc_mem.png" width="75%">
+<h1 id="citations-and-sources">Citations and sources</h1>
 
         </p>
     </div>

@@ -8,30 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Jul 2023 23:37:29 -0700</lastBuildDate><atom:link href="https://jprivera44.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MT5: GPU Performance</title>
+      <title>MT5 finetuning &amp; GPU Performance</title>
       <link>https://jprivera44.github.io/posts/gpu-performance/</link>
       <pubDate>Sat, 15 Jul 2023 23:37:29 -0700</pubDate>
       
       <guid>https://jprivera44.github.io/posts/gpu-performance/</guid>
-      <description>Exploring model performance via CUDA MT5? This project focuses on analyzing the output differences between MT5, with PyTorch, and compared with Tensorflow, to understand deeper which version of software is optimal for performance on a GPU cluster.</description>
+      <description>Intro The mt5 is a transformer based langauge model developed by Google Research(Xue et al.</description>
     </item>
     
     <item>
-      <title>CS Deep Learning</title>
+      <title>Exploring Transformers applied to NeRF</title>
       <link>https://jprivera44.github.io/posts/cs-deep-learning/</link>
-      <pubDate>Sat, 15 Jul 2023 23:13:01 -0700</pubDate>
+      <pubDate>Thu, 04 May 2023 23:13:01 -0700</pubDate>
       
       <guid>https://jprivera44.github.io/posts/cs-deep-learning/</guid>
-      <description>Exploring Transformers applied to NeRF This page briefly describes my invovlement within the end of semester deep learning project.</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax</title>
-      <link>https://jprivera44.github.io/posts/markdown-syntax/</link>
-      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jprivera44.github.io/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <description>Above is the first page from the paper, link is below for full paper.</description>
     </item>
     
     <item>
@@ -50,15 +41,6 @@
       
       <guid>https://jprivera44.github.io/posts/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://jprivera44.github.io/posts/emoji-support/</link>
-      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jprivera44.github.io/posts/emoji-support/</guid>
-      <description>Emoji can be enabled in a Hugo project in a number of ways.</description>
     </item>
     
   </channel>
